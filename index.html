@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section class="section-1">
+        <div class="mobile-cart">
+            <div class="input-area">
+                <div class="add-income">
+                    <input type="number" id="income-input" placeholder="Add Income" required><br>
+                    <button id="add_income">Add Income</button>
+                </div>
+                
+                <div class="add-expense">
+                    <input type="number" id="expense-input" placeholder="Add Expense" required><br>
+                    <button id="add_expense">Add Expense</button>
+                </div>
+            
+            </div>
+
+            <div class="total-calculation">
+                <div class="total-income">
+                    <label for="total-income">Total Income:</label><br>
+                    <input type="number" id="total-income" disabled>
+                </div>
+                    
+                <div class="total-expense">
+                    <label for="total-expense">Total Expense:</label><br>
+                    <input type="number" id="total-expense" disabled>
+                </div>
+                    
+                <div class="total-balence">
+                    <label for="total-balence">Total Balance:</label><br>
+                    <input type="number" id="total-balence" disabled>
+                </div>
+                
+                    
+            </div>
+
+            <div class="warning-message">
+                <p id="w-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
